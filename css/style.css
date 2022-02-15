@@ -23,7 +23,7 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 57.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -229,6 +229,7 @@ section{
     display: flex;
     gap:1.5rem;
     flex-wrap: wrap;
+    margin-top: 3rem;
 }
 
 .about .row .box-container .box{
@@ -493,7 +494,7 @@ section{
 @media (max-width:991px){
 
     html{
-        font-size: 55%;
+        font-size: 50%;
     }
 
     body{
@@ -518,7 +519,7 @@ section{
 @media (max-width:450px){
 
     html{
-        font-size: 50%;
+        font-size: 45%;
     }
 
     .header{
