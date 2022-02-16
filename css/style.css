@@ -85,10 +85,10 @@ section{
     z-index: 999;
     background: var(--bg-color);
     width: 30rem;
-    border-right: var(--border);
     height: 100%;
     padding:2rem;
     text-align: center;
+    box-shadow: var(--box-shadow);
 }
 
 .header .user img{
@@ -178,6 +178,7 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-shadow: var(--box-shadow);
 }
 
 .home .content h3{
@@ -216,6 +217,7 @@ section{
     box-shadow: var(--box-shadow-inset);
     color:var(--green);
 }
+
 
 .about .row{
     display: flex;
@@ -468,6 +470,7 @@ section{
     margin-top: 1rem;
     border-top: var(--border);
     color:var(--black);
+    box-shadow: var(--box-shadow-inset);
 }
 
 .credits span{
